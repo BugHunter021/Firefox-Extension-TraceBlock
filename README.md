@@ -1,5 +1,6 @@
 # <img src="/icons/icon1.png" align="absmiddle"> TraceBlock
-Blocks Tracking Request Browser
+
+### Blocks Tracking Request Browser
 
 TraceBlock is an efficient browser extension that aims to Blocks Tracking Request Browser all over the web.
 
