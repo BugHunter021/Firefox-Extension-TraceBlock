@@ -3,16 +3,6 @@
     'use strict';
     var initmKillerFired = false;
 
-    function injectmKiller(status) {
-    	if(status) {
-		    var node = document.getElementsByTagName('body')[0];
-		    var script = document.createElement('script');
-		    script.setAttribute('type', 'text/javascript');
-		    script.setAttribute('src', chrome.extension.getURL('js/minerkill.js'));
-		    node.appendChild(script);
-    	}
-    }
-
     function initmKiller() {
       if(initmKillerFired == true) {
     		return;
